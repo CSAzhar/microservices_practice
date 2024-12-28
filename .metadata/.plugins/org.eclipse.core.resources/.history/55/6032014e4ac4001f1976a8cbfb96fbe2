@@ -1,0 +1,5 @@
+package com.azhar.user.service.controller;
+
+public class UserController {
+
+}

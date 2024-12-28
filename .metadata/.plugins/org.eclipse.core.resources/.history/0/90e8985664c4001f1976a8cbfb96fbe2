@@ -1,0 +1,5 @@
+package com.azhar.user.service.entity;
+
+public class Rating {
+
+}

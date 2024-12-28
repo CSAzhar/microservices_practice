@@ -1,0 +1,36 @@
+package com.azhar.rating.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.azhar.rating.entity.Rating;
+
+@Service
+public class RatingService implements ServiceInterf{
+	
+	@Autowired
+	private RatingService service;
+
+	@Override
+	public Rating create(Rating rating) {
+		return service.create(rating);
+	}
+
+	@Override
+	public List<Rating> getAll() {
+		return service.getAll();
+	}
+
+	@Override
+	public List<Rating> getAllByUserId(String userId) {
+		return service.getAllByUserId(userId);
+	}
+
+	@Override
+	public List<Rating> getAllByHotelId(String hotelId) {
+		return service.getAllByHotelId(hotelId);
+	}
+
+}

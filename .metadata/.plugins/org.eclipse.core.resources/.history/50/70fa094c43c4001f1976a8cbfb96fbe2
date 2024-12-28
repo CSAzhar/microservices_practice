@@ -1,0 +1,18 @@
+package com.azhar.user.service.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "micro-user")
+public class User {
+	
+	@Id
+	private String userId;
+	private String name;
+	private String email;
+	private String about;
+	
+
+}

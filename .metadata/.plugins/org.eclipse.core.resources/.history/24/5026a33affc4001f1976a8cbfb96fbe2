@@ -1,0 +1,19 @@
+package com.azhar.ServiceRegistry;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ServiceRegistryApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ServiceRegistryApplication.class, args);
+		System.out.println("=======================================");
+		System.out.println("=======================================");
+		System.out.println("===========Service Registry============");
+		System.out.println("=======================================");
+		System.out.println("=======================================");
+		
+	}
+
+}

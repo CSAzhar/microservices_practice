@@ -1,0 +1,10 @@
+spring.application.name=UserService
+
+server.port=8081
+spring.datasource.url=jdbc://localhost:3306/microservices
+spring.datasource.username=root
+spring.datasource.password=Azhar786@
+
+jpa.hibernate.ddl-auto=update
+jpa.showsql=true
+jpa.pro 
